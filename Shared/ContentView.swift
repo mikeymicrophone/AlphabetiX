@@ -15,9 +15,7 @@ struct ContentView: View {
         Text("AlphabetiX")
             .font(.headline)
         Text("Today is")
-        Text("Day G")
-        Text("\(today)")
-        Text("\(dayLetter)")
+        Text("Day \(dayLetter)")
     }
 }
 
