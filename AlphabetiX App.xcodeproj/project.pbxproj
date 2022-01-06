@@ -17,6 +17,10 @@
 		76DC1E7A2786A9BF00006D82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC1E502786A9BD00006D82 /* ContentView.swift */; };
 		76DC1E7B2786A9BF00006D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DC1E512786A9BF00006D82 /* Assets.xcassets */; };
 		76DC1E7C2786A9BF00006D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DC1E512786A9BF00006D82 /* Assets.xcassets */; };
+		76DC1E8C2786B03200006D82 /* DayWhat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC1E8B2786B03200006D82 /* DayWhat.swift */; };
+		76DC1E8D2786B03200006D82 /* DayWhat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC1E8B2786B03200006D82 /* DayWhat.swift */; };
+		76DC1E8E2786B03200006D82 /* DayWhat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC1E8B2786B03200006D82 /* DayWhat.swift */; };
+		76DC1E8F2786B03200006D82 /* DayWhat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC1E8B2786B03200006D82 /* DayWhat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,7 @@
 		76DC1E6F2786A9BF00006D82 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DC1E732786A9BF00006D82 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		76DC1E752786A9BF00006D82 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		76DC1E8B2786B03200006D82 /* DayWhat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWhat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,7 @@
 		76DC1E492786A9BD00006D82 = {
 			isa = PBXGroup;
 			children = (
+				76DC1E8B2786B03200006D82 /* DayWhat.swift */,
 				76DC1E4E2786A9BD00006D82 /* Shared */,
 				76DC1E5D2786A9BF00006D82 /* macOS */,
 				76DC1E662786A9BF00006D82 /* Tests iOS */,
@@ -299,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DC1E8C2786B03200006D82 /* DayWhat.swift in Sources */,
 				76DC1E792786A9BF00006D82 /* ContentView.swift in Sources */,
 				76DC1E772786A9BF00006D82 /* AlphabetiX_AppApp.swift in Sources */,
 			);
@@ -308,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DC1E8D2786B03200006D82 /* DayWhat.swift in Sources */,
 				76DC1E7A2786A9BF00006D82 /* ContentView.swift in Sources */,
 				76DC1E782786A9BF00006D82 /* AlphabetiX_AppApp.swift in Sources */,
 			);
@@ -317,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DC1E8E2786B03200006D82 /* DayWhat.swift in Sources */,
 				76DC1E6A2786A9BF00006D82 /* Tests_iOSLaunchTests.swift in Sources */,
 				76DC1E682786A9BF00006D82 /* Tests_iOS.swift in Sources */,
 			);
@@ -326,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DC1E8F2786B03200006D82 /* DayWhat.swift in Sources */,
 				76DC1E762786A9BF00006D82 /* Tests_macOSLaunchTests.swift in Sources */,
 				76DC1E742786A9BF00006D82 /* Tests_macOS.swift in Sources */,
 			);

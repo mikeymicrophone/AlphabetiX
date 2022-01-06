@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        let calendarCalculator = DayWhat()
+        let today = calendarCalculator.daysSinceOrigin()
+        let dayLetter = calendarCalculator.letterOfDay()
+        Text("AlphabetiX")
+            .font(.headline)
+        Text("Today is")
+        Text("Day G")
+        Text("\(today)")
+        Text("\(dayLetter)")
     }
 }
 
